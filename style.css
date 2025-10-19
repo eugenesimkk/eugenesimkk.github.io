@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6b8c42, #8fbc8f);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Стили для главной страницы */
+.intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.features {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Стили для страницы с блюдами */
+.dish-card {
+    background: white;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+.dish-card img {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.dish-card h3 {
+    text-align: center;
+    color: #6b8c42;
+    margin-bottom: 1rem;
+}
+
+.review {
+    background: #f8f8f8;
+    padding: 1rem;
+    border-left: 4px solid #6b8c42;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.review p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Стили для страницы с историями */
+.story {
+    background: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+
+.story h3 {
+    color: #6b8c42;
+    margin-bottom: 1rem;
+}
+
+.tip {
+    background: #e8f5e8;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    border-left: 4px solid #6b8c42;
+}
+
+.tip strong {
+    color: #5a7a35;
+}
+
+/* Стили для страницы о традициях */
+.tradition {
+    background: white;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 800px;
+}
+
+.tradition h3 {
+    color: #6b8c42;
+    margin-bottom: 1rem;
+}
+
+.memory {
+    background: #fff8e1;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    font-style: italic;
+    border-left: 4px solid #e6b400;
+}
+
+.memory p {
+    margin: 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
